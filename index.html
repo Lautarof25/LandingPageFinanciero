@@ -14,7 +14,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <!-- Navigation-->
@@ -25,13 +24,16 @@
             </div>
         </nav> -->
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead vh-100">
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">🚀 ¡Bienvenida/o a nuestro curso digital para impulsar tus habilidades financieras y fortalecer tu emprendimiento! 🚀</h1>
+                            <h1 class="mb-5">🚀 ¡Bienvenida/o a nuestro curso digital! 🚀</h1>
+                            <p class="fs-4">
+                             ¡Impulsa tus habilidades financieras y fortalece tu emprendimiento!
+                            </p>
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -45,8 +47,8 @@
                                 <div class="row">
                                     <div class="col">
                                         <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Se requiere un Email</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">El Email no es válido.</div>
                                     </div>
                                     <div class="col-auto"><button class="btn btn-orange btn-lg
                                          disabled" id="submitButton" type="submit">Suscribirse</button></div>
@@ -57,7 +59,7 @@
                                 <!-- has successfully submitted-->
                                 <div class="d-none" id="submitSuccessMessage">
                                     <div class="text-center mb-3">
-                                        <div class="fw-bolder">¡Enviado con éxito!</div>
+                                        <div class="fw-bolder text-success-emphasis">¡Enviado con éxito!</div>
                                         <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">Te llegará un correo con todos los datos</a>
                                     </div>
                                 </div>
@@ -65,7 +67,7 @@
                                 <!---->
                                 <!-- This is what your users will see when there is-->
                                 <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar el mensaje!</div></div>
                             </form>
                         </div>
                     </div>
@@ -78,14 +80,15 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex justify-content-center"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="features-icons-icon d-flex justify-content-center">
+                                <i class="bi bi-graph-up"></i></div>
                             <h3>Estrategia</h3>
                             <p class="lead mb-0">Transforma tu futuro con la estrategia perfecta para el éxito financiero.                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex justify-content-center"><i class="fa-solid fa-piggy-bank"></i></div>
+                            <div class="features-icons-icon d-flex justify-content-center"><i class="bi bi-piggy-bank-fill"></i></div>
                             <h3>Ahorros</h3>
                             <p class="lead mb-0">Ahorra hoy, vive tranquilo mañana. Tu seguridad financiera comienza con pequeños pasos.
                             </p>
@@ -93,7 +96,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex justify-content-center"><i class="fa-solid fa-coins"></i></div>
+                            <div class="features-icons-icon d-flex justify-content-center"><i class="bi bi-cash-coin"></i></div>
                             <h3>Ganancias</h3>
                             <p class="lead mb-0">Multiplica tus ganancias. Convierte cada esfuerzo en un logro financiero sólido.                            </p>
                         </div>
@@ -135,21 +138,21 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/svg-project/testimonal3.svg" alt="..." />
                             <h5>Romina E.</h5>
                             <p class="font-weight-light mb-0">"Es fantástico! Muchas gracias por  todo!"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/svg-project/testimonial2.svg" alt="..." />
                             <h5>Lautaro F.</h5>
                             <p class="font-weight-light mb-0">"Nunca pensé que un curso podría abrir tantas posibilidades"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle mb-3" src="assets/img/svg-project/testimonial1.svg" alt="..." />
                             <h5>Johana W.</h5>
                             <p class="font-weight-light mb-0">"Gané mucho más conocimiento con este curso que con cientos de horas de internet. Simplemente gracias!"</p>
                         </div>
@@ -179,7 +182,7 @@
                                     <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
                                     <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
                                 </div>
-                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                                <div class="col-auto"><button class="btn btn-orange btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -208,15 +211,15 @@
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
                         <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item"><a href="#!">Sobre nosotros</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item"><a href="#!">Contacto</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item"><a href="#!">Términos</a></li>
                             <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#!">Política de privacidad</a></li>
                         </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Impulsa Finanza Digital <span class="year"></span>. Todos los derechos reservados.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">

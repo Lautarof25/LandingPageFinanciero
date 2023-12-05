@@ -5,3 +5,7 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+const currentYear = new Date().getFullYear() 
+
+const year = document.querySelector('.year')
+year.textContent = currentYear
